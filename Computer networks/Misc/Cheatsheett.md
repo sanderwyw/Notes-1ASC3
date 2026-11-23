@@ -1,0 +1,160 @@
+- show
+	- start-config
+		- It contains all the commands that will be used by the device upon startup
+	- running-config
+		- Stored in RAM
+		- Reflects current configuration
+		- Loses all of its content when device is powered off
+- reload
+	- clear running-config
+	- EXEC mode
+- erase startup-config
+	- clear all configurations
+	- EXEC mode
+- copy running-config startup-config
+	- save changes to running config to the startup config file
+	- EXEC mode
+- ip info
+	- for routing table
+
+Terminology
+- Data Packet
+	- Header
+	- Payload
+	- Trailer
+- Host Roles
+	- End Device/ host
+		- Data originates from end device
+		- Has its own IP address
+	- Server
+		- Number of computers
+	- Client
+		- Computer that sends request to retrieve information
+- Network Hardware
+	- Modem
+		- Brings internet service to router
+	- Switch
+	- Routers
+	- 
+
+Abbreviations
+- Protocols
+	- AAA
+		- Authentication, authorization and accounting
+		- Authentication
+			- Who is the person using the computer?
+		- Authorization
+			- What are the permissions of the person using the computer?
+		- Accounting
+			- Keeps track of user activity
+	- CA
+		- Collision Avoidance
+	- CD
+		- Collision Detection
+	- ARP
+		- Address Resolution Protocol
+		- For discovering the MAC address associated with IP address
+	- ARP Table
+		- Maps IP addresses to MAC addresses
+	- BPDU
+		- Bridge Protocol Data Unit
+		- Prevents layer 2 loops
+		- Data message exchanged between switches in a network
+	- CDP
+		- Customer Data Platform
+		- Software system that collects and organizes customer data to build customer profile
+	- CIA
+		- Confidentiality
+			- Make sure data is kept secret/ private
+		- Integrity
+			- Make sure data is trustworthy and free from tampering
+		- Availability
+			- Make sure data is available
+	- VLAN
+		- Virtual Local Access Network
+		- A LAN that is connected to the same switch as a different LAN
+		- Virtualized connection that connects multiple devices and network nodes from different LANs into one logical networp
+	- DHCP
+		- Dynamic Host Configuration Protocol
+		- Assigns IP addresses to each host on a network
+	- DNS
+		- Domain Name Server
+		- Turns domain names from text to an IP address
+	- DoS
+		- Denial of service attack
+		- Attack in which someone aims to render a computer or server unavailable
+	- DTOP
+		- who knows 
+			- (;o;) <- ugly
+	- GUA
+		- Global Unicast Address
+		- Part of IPv6
+		- Globally routable
+		- Similar to public IPv4 addresses
+	- ICMP
+		- Internet Control Message Protocol
+	- IDS
+		- Intrusion Detection System
+		- Monitors network traffic and searches for known threats or malicious activity
+	- IPS
+		- Intrusion Prevention System
+		- Prevents threats and malicious activity
+	- LAN
+		- Local Area Network
+		- Computer network that interconnects computers within a limited area
+	- WAN
+		- Wide Area Network
+		- Computer network that interconnects computer within a wide area
+	- LLA
+		- Link-local address
+		- Part of IPv6
+		- Used to communicate with other devices on the same subnet
+	- MAC
+		- Controls the hardware responsible for interaction with the physical layer
+	- MITM
+		- Man-in-the-middle
+		- Cyberattack where the attack secretly relays and possibly alters the communications
+	- NA
+		- Network advertisement
+		- 
+	- NS
+		- Network solicitation
+	- NAC
+		- Network access control
+	- NDP
+		- Neighbour discovery protocol
+	- NIC
+		- Network interface card
+		- Physical card that is part of a device that allows it to connect to the network
+	- OSI
+		- Open Systems Model
+	- RA/RS
+	- RJ45
+		- Standard ethernet connector
+	- RoaS
+		- Return on ad spend
+	- SLAAC
+		- Stateless Address Auto-configuration
+	- STP
+		- Spanning Tree Protocol
+		- Network protocol that builds a loop-free logical topology for ethernet networks
+	- SVI
+		- Switched Virtual Interface
+		- Connects VLAN to the routing engine of the switch
+	- TCP/IP
+		- Transmission Control Protocol
+		- Enables application programs and computing devices to exchange messages over a network
+		- Part of IP
+	- UDP
+		- User Datagram Protocol
+			- Used across the internet for time-sensitive transmissions
+	- UTP
+		- Unshield twisted pair
+	- VLAN
+	- VPN
+		- Virtual private network
+- Other
+	- NVRAM
+		- Non-volatile random access memory
+	- RAM
+		- Random access memory
